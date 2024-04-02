@@ -10,7 +10,7 @@ function page() {
           <div className=" flex flex-col gap-5 text-gray-400 w-[80%]">
             {" "}
             <p>
-              Hi there, I'm Nora Sabri, a 23-year-old photographer from the
+              Hi there, I&apos;m Nora Sabri, a 23-year-old photographer from the
               vibrant streets of Morocco. With my camera always by my side, I
               embark on a journey to capture the beauty and essence of my
               homeland through my lens.
@@ -23,8 +23,8 @@ function page() {
             </p>
             <p>
               Join me as I explore the hidden gems and everyday wonders of
-              Morocco, one photograph at a time. Together, let's embark on a
-              journey of discovery and celebration of the extraordinary in the
+              Morocco, one photograph at a time. Together, let&apos;s embark on
+              a journey of discovery and celebration of the extraordinary in the
               ordinary. Welcome to my world behind the lens.
             </p>
           </div>
