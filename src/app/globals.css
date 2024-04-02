@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+}
+input[type="text"],
+input[type="email"] {
+  @apply block w-full  mb-2  outline-none;
+  @apply border p-3;
+}
+textarea {
+  @apply block w-full  mb-2 !outline-none h-20;
+  @apply border p-3;
+}
+label {
+  @apply text-sm leading-tight;
+}
+label + input + textarea {
+  margin-top: 2px;
+}
