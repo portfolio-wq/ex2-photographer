@@ -40,12 +40,11 @@ function page() {
   return (
     <div className="w-[80%] mx-auto flex flex-col items-center mt-20">
       {company.map((comp, i) => (
-        <div key={i} className="flex gap-3 mb-20  ">
-          <div>
-            <Image src={comp.photo} alt="" width={150} height={150} />
+        <div key={i} className="flex gap-3  mb-20 items-start">
+          <div className="md:w-[50px] md:h-[50px] relative w-[150px] h-[30px]">
+            <Image src={comp.photo} alt="" fill />
           </div>
-
-          <div>
+          <div className="">
             <h1 className="text-xl ">{comp.name}</h1>
             <span className="text-gray-400">{comp.duration}</span>
             <p className="text-gray-400 mb-5">
